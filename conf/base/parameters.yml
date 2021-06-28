@@ -1,0 +1,13 @@
+# Parameters for the example pipeline. Feel free to delete these once you
+# remove the example pipeline from hooks.py and the example nodes in
+# `src/pipelines/`
+example_test_data_ratio: 0.2
+a:
+  example_num_train_iter: 10000
+  example_learning_rate: 0.01
+b:
+  example_num_train_iter: 20000
+  example_learning_rate: 0.02
+c:
+  example_num_train_iter: 30000
+  example_learning_rate: 0.03

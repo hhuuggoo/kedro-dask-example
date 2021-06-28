@@ -1,0 +1,34 @@
+name: saturnia
+channels:
+- saturncloud
+- conda-forge
+- nodefaults
+dependencies:
+- bokeh
+- dask=2021.05
+- distributed=2021.05
+- ipykernel
+- ipywidgets
+- matplotlib
+- pandas
+- panel
+- pip
+- prefect
+- pyarrow
+- python
+- s3fs
+- voila
+- python-dotenv
+- kedro
+- nodejs=15.3.0
+- jupyterlab<3
+- pip:
+  - snowflake-connector-python
+  - prefect-saturn
+  - dask-saturn
+  - mixpanel
+  - flake8
+  - black
+  - isort
+  - pytest
+  - pytest-cov
